@@ -97,6 +97,37 @@ body::before {
 .delay-7 { animation-delay: 0.7s; }
 .delay-8 { animation-delay: 0.8s; }
 
+/* ── Responsive ── */
+.nav-links-desktop { display: flex; }
+.nav-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; color: #f0f0f0; }
+.nav-mobile-menu { display: none; }
+
+.about-grid { grid-template-columns: 1fr 1fr; }
+.hh-hero-grid { grid-template-columns: 1fr auto; }
+.hh-phone-col { display: block; }
+
+@media (max-width: 768px) {
+  .nav-links-desktop { display: none !important; }
+  .nav-hamburger { display: flex !important; align-items: center; justify-content: center; }
+  .nav-mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 64px;
+    left: 0; right: 0;
+    background: rgba(10,10,10,0.97);
+    border-bottom: 1px solid #2a2a2a;
+    padding: 1.5rem 2rem;
+    gap: 1.25rem;
+    z-index: 99;
+  }
+  .nav-mobile-menu.hh { top: 60px; }
+  .about-grid { grid-template-columns: 1fr !important; gap: 2.5rem !important; }
+  .hh-hero-grid { grid-template-columns: 1fr !important; }
+  .hh-phone-col { display: none !important; }
+  .projects-grid { grid-template-columns: 1fr !important; }
+}
+
 /* Red accent line */
 .accent-line {
   display: block;

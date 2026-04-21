@@ -24,7 +24,7 @@ export default function HHHero() {
         pointerEvents: 'none',
       }} />
 
-      <div style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', display: 'grid', gridTemplateColumns: '1fr auto', gap: '4rem', alignItems: 'center' }}>
+      <div className="hh-hero-grid" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', display: 'grid', gap: '4rem', alignItems: 'center' }}>
         {/* Left content */}
         <div>
           {/* App icon + label */}
@@ -91,7 +91,7 @@ export default function HHHero() {
         </div>
 
         {/* Right: phone mockup */}
-        <div className="fade-up delay-3" style={{ position: 'relative', flexShrink: 0 }}>
+        <div className="fade-up delay-3 hh-phone-col" style={{ position: 'relative', flexShrink: 0 }}>
           {/* Gold glow behind phone */}
           <div style={{
             position: 'absolute', top: '50%', left: '50%',

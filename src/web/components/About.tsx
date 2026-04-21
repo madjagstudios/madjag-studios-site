@@ -29,10 +29,10 @@ export default function About() {
           position: 'relative',
           zIndex: 1,
           display: 'grid',
-          gridTemplateColumns: '1fr 1fr',
           gap: '4rem',
           alignItems: 'center',
         }}
+        className="about-grid"
       >
         {/* Left: label + heading */}
         <div>
