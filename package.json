@@ -6,6 +6,7 @@
     "@ai-sdk/openai": "^3.0.41",
     "@radix-ui/react-slot": "^1.2.4",
     "@runablehq/website-runtime": "^0.10.0",
+    "@vercel/analytics": "^2.0.1",
     "ai": "^6.0.116",
     "atmn": "1.1.8",
     "autumn-js": "1.2.0",
