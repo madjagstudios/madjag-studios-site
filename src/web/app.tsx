@@ -2,6 +2,7 @@ import { Route, Switch } from "wouter";
 import Index from "./pages/index";
 import HylandHelper from "./pages/hyland-helper";
 import { Provider } from "./components/provider";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/" component={Index} />
         <Route path="/hyland-helper" component={HylandHelper} />
       </Switch>
+      <Analytics />
     </Provider>
   );
 }
