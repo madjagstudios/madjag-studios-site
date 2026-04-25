@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap');
+
+:root {
+  --mj-red: #E11D2A;
+  --mj-red-deep: #7E0F18;
+  --mj-red-glow: #FF3B47;
+  --mj-ink: #0a0a0b;
+  --mj-fill-left: #1a0507;
+  --mj-fill-right: #0d0203;
+}
 @import "tailwindcss";
 @import "tw-animate-css";
 

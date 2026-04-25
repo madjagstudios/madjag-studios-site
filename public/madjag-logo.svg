@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="MadJag Studios">
+  <title>MadJag Studios</title>
+  <defs>
+    <clipPath id="mj-hex"><path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z"></path></clipPath>
+    <clipPath id="mj-hexL"><rect x="0" y="0" width="100" height="200"></rect></clipPath>
+    <clipPath id="mj-hexR"><rect x="100" y="0" width="100" height="200"></rect></clipPath>
+    <filter id="mj-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+    
+  </defs>
+
+  
+  <path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z" fill="none" stroke="#FF3B47" stroke-width="2" opacity="0.35" filter="url(#mj-glow)"></path>
+
+  <g clip-path="url(#mj-hex)">
+    
+    <g clip-path="url(#mj-hexL)">
+      <path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z" fill="#1a0507"></path>
+      <g stroke="#E11D2A" stroke-width="1.5" fill="none" opacity="0.85">
+        <path d="M14 60 H40 L48 52 H72"></path>
+        <path d="M10 96 H30 L36 102 H58"></path>
+        <path d="M16 130 H44 L52 122 H80"></path>
+        <path d="M22 156 H56"></path>
+        <path d="M40 38 V52"></path>
+        <path d="M68 70 V82"></path>
+      </g>
+      <g fill="#E11D2A">
+        <circle cx="14" cy="60" r="2"></circle>
+        <circle cx="72" cy="52" r="2"></circle>
+        <circle cx="10" cy="96" r="2"></circle>
+        <circle cx="58" cy="102" r="2"></circle>
+        <circle cx="16" cy="130" r="2"></circle>
+        <circle cx="80" cy="122" r="2"></circle>
+        <circle cx="22" cy="156" r="2"></circle>
+        <circle cx="56" cy="156" r="2"></circle>
+        <circle cx="40" cy="38" r="2"></circle>
+        <circle cx="68" cy="70" r="2"></circle>
+      </g>
+    </g>
+
+    
+    <g clip-path="url(#mj-hexR)">
+      <path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z" fill="#0d0203"></path>
+      <g fill="#E11D2A" opacity="0.9">
+        <rect x="184" y="48" width="6" height="6"></rect>
+        <rect x="178" y="54" width="6" height="6"></rect>
+        <rect x="184" y="60" width="6" height="6"></rect>
+        <rect x="172" y="62" width="4" height="4"></rect>
+        <rect x="180" y="92" width="5" height="5"></rect>
+        <rect x="186" y="100" width="4" height="4"></rect>
+        <rect x="100" y="156" width="6" height="6"></rect>
+        <rect x="106" y="162" width="6" height="6"></rect>
+        <rect x="94" y="162" width="6" height="6"></rect>
+        <rect x="100" y="170" width="4" height="4"></rect>
+        <rect x="106" y="60" width="5" height="5"></rect>
+        <rect x="112" y="80" width="4" height="4"></rect>
+      </g>
+      <g fill="#E11D2A" opacity="0.6">
+        <rect x="172" y="86" width="22" height="2"></rect>
+        <rect x="104" y="120" width="14" height="2"></rect>
+      </g>
+    </g>
+
+    
+    <text x="63" y="155" text-anchor="middle" class="mj-glyph">M</text>
+    <text x="137" y="155" text-anchor="middle" class="mj-glyph">J</text>
+  </g>
+
+  
+  <path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z" fill="none" stroke="#E11D2A" stroke-width="3"></path>
+  <line x1="100" y1="14" x2="100" y2="186" stroke="#0a0a0b" stroke-width="2.5"></line>
+  <path d="M174.478,143 L100,186 L25.522,143 L25.522,57 L100,14 L174.478,57 Z" fill="none" stroke="#7E0F18" stroke-width="1" opacity="0.6" transform="translate(100 100) scale(0.92) translate(-100 -100)"></path>
+</svg>

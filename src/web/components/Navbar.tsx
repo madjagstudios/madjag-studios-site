@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import MadJagLogo from './MadJagLogo';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -15,15 +16,9 @@ export default function Navbar() {
         }}
       >
         <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
-          <div style={{
-            width: '36px', height: '36px', background: '#9b1c1c',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            clipPath: 'polygon(0 0, 100% 0, 100% 75%, 85% 100%, 0 100%)',
-          }}>
-            <span style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '1.1rem', color: '#f0f0f0', letterSpacing: '0.05em', lineHeight: 1 }}>MJ</span>
-          </div>
+          <MadJagLogo size={40} glow={false} />
           <span style={{ fontFamily: "'Rajdhani', sans-serif", fontWeight: 700, fontSize: '1.1rem', color: '#f0f0f0', letterSpacing: '0.08em' }}>
-            MadJag <span style={{ color: '#9b1c1c' }}>Studios</span>
+            MadJag <span style={{ color: '#E11D2A' }}>Studios</span>
           </span>
         </a>
 

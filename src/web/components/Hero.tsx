@@ -1,3 +1,5 @@
+import MadJagLogo from './MadJagLogo';
+
 export default function Hero() {
   return (
     <section
@@ -49,8 +51,11 @@ export default function Hero() {
       />
 
       <div style={{ maxWidth: '900px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
-        <div className="fade-up delay-1">
+        <div className="fade-up delay-1" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
           <span className="section-label">// est. 2024</span>
+          <div style={{ opacity: 0.9 }}>
+            <MadJagLogo size={96} />
+          </div>
         </div>
 
         <h1
