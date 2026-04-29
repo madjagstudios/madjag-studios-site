@@ -22,10 +22,11 @@ export default function HHFooter() {
       </div>
       <div style={{ display: 'flex', gap: '1.5rem' }}>
         {[
-          { label: 'Privacy Policy', href: 'https://madjagstudios.github.io/madjag-studios-site/privacy.html' },
-          { label: 'Terms of Service', href: 'https://madjagstudios.github.io/madjag-studios-site/terms.html' },
+          { label: 'Privacy Policy', href: '/privacy.html' },
+          { label: 'Terms of Service', href: '/terms.html' },
+          { label: 'Support', href: '/support.html' },
         ].map(({ label, href }) => (
-          <a key={label} href={href} target="_blank" rel="noopener noreferrer" style={{
+          <a key={label} href={href} style={{
             fontFamily: "'JetBrains Mono', monospace", fontSize: '0.6rem',
             color: '#333', letterSpacing: '0.1em', textDecoration: 'none',
             transition: 'color 0.2s',

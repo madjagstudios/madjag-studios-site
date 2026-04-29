@@ -1,0 +1,25 @@
+# MadJag Studios
+
+MadJag Studios builds indie game tools and utility apps.
+
+Canonical URL: https://madjagstudios.com/
+
+## Hyland Helper
+
+Canonical URL: https://madjagstudios.com/hyland-helper
+App Store URL: https://apps.apple.com/us/app/hyland-helper/id6761792150
+
+Hyland Helper is an iOS companion app for Schedule 1. It helps players make better in-game decisions with:
+
+- The Advisor: profile-aware answers based on rank, cash, properties, and setup.
+- Mixing Calculator: recipe building and optimization for profit, ROI, or fast cash.
+- Properties: quick reference for property stats, capacity, and usage.
+- Progression Tracker: rank unlock planning so players know what comes next.
+
+Hyland Helper is free to download with optional in-app purchases. It is an unofficial fan app and is not affiliated with TVGS or the Schedule 1 developers.
+
+## Support and policies
+
+- Support: https://madjagstudios.com/support.html
+- Privacy Policy: https://madjagstudios.com/privacy.html
+- Terms of Service: https://madjagstudios.com/terms.html

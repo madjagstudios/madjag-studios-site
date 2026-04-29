@@ -28,12 +28,14 @@ const projects: Project[] = [
     linkLabel: 'View on App Store',
   },
   {
-    name: 'D2 Trade Tool',
-    tagline: 'Diablo 2 Trading Utility',
+    name: 'Sanctuary Stash',
+    tagline: 'D2R Trade Workflow Tool',
     description:
-      'A proper trading tool for the chaos that is D2 item trading. Price references, item lookup, trade logging. So you stop getting scammed by that one guy who swears a Stormshield is worth 3 Jah.',
+      'Item scanning, stash tracking, rune pricing, and trade post formatting for Diablo II: Resurrected. Built to turn valuable drops into clean listings without spreadsheet penance.',
     status: 'dev',
     platform: 'Web / iOS',
+    link: 'https://sanctuarystash.com',
+    linkLabel: 'Visit Landing Page',
   },
   {
     name: 'Weight Tracker',

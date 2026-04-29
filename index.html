@@ -4,13 +4,95 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>MadJag Studios</title>
+		<meta name="description" content="MadJag Studios builds indie game tools and utility apps, including Hyland Helper for Schedule 1 and Sanctuary Stash for D2R trading." />
+		<meta name="robots" content="index,follow,max-image-preview:large" />
+		<link rel="canonical" href="https://madjagstudios.com/" />
+		<meta property="og:site_name" content="MadJag Studios" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="MadJag Studios" />
+		<meta property="og:description" content="Indie game tools and utility apps built by MadJag Studios." />
+		<meta property="og:url" content="https://madjagstudios.com/" />
+		<meta property="og:image" content="https://madjagstudios.com/og-image.png" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="MadJag Studios" />
+		<meta name="twitter:description" content="Indie game tools and utility apps, including Hyland Helper and Sanctuary Stash." />
+		<meta name="twitter:image" content="https://madjagstudios.com/og-image.png" />
+		<meta name="theme-color" content="#0a0a0b" />
 		<link rel="icon" href="/madjag-logo.svg" type="image/svg+xml" />
 		<link rel="icon" href="/favicon.ico" sizes="any" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet" />
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@graph": [
+				{
+					"@type": "Organization",
+					"@id": "https://madjagstudios.com/#organization",
+					"name": "MadJag Studios",
+					"url": "https://madjagstudios.com/",
+					"logo": "https://madjagstudios.com/madjag-logo.svg",
+					"description": "MadJag Studios builds indie game tools and utility apps."
+				},
+				{
+					"@type": "WebSite",
+					"@id": "https://madjagstudios.com/#website",
+					"name": "MadJag Studios",
+					"url": "https://madjagstudios.com/",
+					"description": "Indie game tools and utility apps from MadJag Studios.",
+					"publisher": {
+						"@id": "https://madjagstudios.com/#organization"
+					}
+				}
+			]
+		}
+		</script>
+		<style>
+			body { margin: 0; background: #0a0a0b; color: #f0f0f0; font-family: Inter, Arial, sans-serif; }
+			.mj-static { min-height: 100vh; background: #0a0a0b; color: #f0f0f0; }
+			.mj-static-wrap { max-width: 960px; margin: 0 auto; padding: 96px 24px; }
+			.mj-static-kicker { color: #e11d2a; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; }
+			.mj-static h1 { font-family: Rajdhani, Arial, sans-serif; font-size: clamp(58px, 10vw, 120px); line-height: .9; margin: 24px 0 18px; }
+			.mj-static h2 { font-family: Rajdhani, Arial, sans-serif; font-size: clamp(30px, 5vw, 54px); line-height: 1; margin: 0 0 18px; }
+			.mj-static p { color: #a0a0a0; line-height: 1.75; max-width: 620px; }
+			.mj-static-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 34px; }
+			.mj-static-card { border: 1px solid #2a2a2a; border-top: 2px solid #9b1c1c; background: #161616; padding: 24px; }
+			.mj-static-card h3 { margin: 0 0 8px; font-family: Rajdhani, Arial, sans-serif; font-size: 26px; }
+			.mj-static-card a { color: #f0f0f0; font-weight: 700; }
+		</style>
 	</head>
 	<body>
-		<div id="root"></div>
+		<div id="root">
+			<main class="mj-static" aria-label="MadJag Studios static landing content">
+				<section class="mj-static-wrap">
+					<div class="mj-static-kicker">Indie game tools</div>
+					<h1>MadJag Studios</h1>
+					<p>MadJag Studios builds practical game tools and utility apps, including Hyland Helper for Schedule 1 and Sanctuary Stash for Diablo II: Resurrected trading.</p>
+				</section>
+				<section class="mj-static-wrap">
+					<div class="mj-static-kicker">Current app</div>
+					<h2>Hyland Helper</h2>
+					<p>Hyland Helper is a Schedule 1 companion app with profile-aware advice, a mixing calculator, property reference, and progression tracking.</p>
+					<div class="mj-static-grid">
+						<article class="mj-static-card">
+							<h3>Hyland Helper</h3>
+							<p>Free iOS companion app for Schedule 1.</p>
+							<p><a href="/hyland-helper">View Hyland Helper</a></p>
+						</article>
+						<article class="mj-static-card">
+							<h3>Sanctuary Stash</h3>
+							<p>D2R item scanner, stash tracker, rune price helper, and trade post formatter.</p>
+							<p><a href="https://sanctuarystash.com">Visit Sanctuary Stash</a></p>
+						</article>
+						<article class="mj-static-card">
+							<h3>Support</h3>
+							<p>Need help with Hyland Helper?</p>
+							<p><a href="/support.html">Open support</a></p>
+						</article>
+					</div>
+				</section>
+			</main>
+		</div>
 		<script type="module" src="/src/web/main.tsx"></script>
 	</body>
 </html>

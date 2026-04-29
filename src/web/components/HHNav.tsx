@@ -24,7 +24,7 @@ export default function HHNav() {
 
         {/* Desktop links */}
         <div className="nav-links-desktop" style={{ alignItems: 'center', gap: '2rem' }}>
-          {['Features', 'Screenshots'].map(item => (
+          {['Features', 'Screenshots', 'FAQ'].map(item => (
             <a key={item} href={`#${item.toLowerCase()}`} style={{
               fontFamily: "'Rajdhani', sans-serif", fontWeight: 600,
               fontSize: '0.88rem', letterSpacing: '0.1em', textTransform: 'uppercase',
@@ -57,7 +57,7 @@ export default function HHNav() {
       {/* Mobile menu */}
       {open && (
         <div className="nav-mobile-menu hh" onClick={() => setOpen(false)}>
-          {['Features', 'Screenshots'].map(item => (
+          {['Features', 'Screenshots', 'FAQ'].map(item => (
             <a key={item} href={`#${item.toLowerCase()}`} style={{
               fontFamily: "'Rajdhani', sans-serif", fontWeight: 600,
               fontSize: '1.1rem', letterSpacing: '0.12em', textTransform: 'uppercase',

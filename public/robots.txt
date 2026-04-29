@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madjagstudios.com/sitemap.xml
